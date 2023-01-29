@@ -44,10 +44,10 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Hi, i'm {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I{" "}
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
@@ -57,9 +57,14 @@ export const Home = (): JSX.Element => {
               </Text>{" "}
               projects
             </Text>
-            <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            <Text type="body1" color="grey3">
+              I have always had a great interest in
+              technology. I've always been fascinated by the growth that the
+              field has had in recent years and its impact on the modern world.
+              Due to these repercussions, i decide to participate in this
+              transformation and become a software developer! I'm currently
+              specializing in full stack web development at Kenzie Academy
+              Brasil Here are some of my projects you can check out!
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">

@@ -37,16 +37,19 @@ export const LogoTipoText = styled("span", {
 });
 
 export const NavbarLinks = styled(Flex, {
+  
   "@mobile": {
     marginTop: "$3",
     flexDirection: "column",
     alignItems: "flex-start",
+  
     "& a": {
       width: "100%",
       justifyContent: "flex-start",
       paddingLeft: 0,
     },
   },
+  
 });
 
 export const NavbarMobileArea = styled("div", {
