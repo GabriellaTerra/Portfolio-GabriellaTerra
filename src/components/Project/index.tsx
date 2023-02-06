@@ -31,11 +31,17 @@ export const Project = (): JSX.Element => {
       );
 
       const json = await data.json();
+      const filtered = json.filter(
+        (repo: ReposType) =>
+          repo.name !== "GabriellaTerra" )
 
-      setRepositories(json);
+      setRepositories(filtered)
 
-      return json;
-    };
+      return filtered
+    }
+
+    
+    
 
     fetchData();
   }, []);
@@ -83,7 +89,7 @@ export const Project = (): JSX.Element => {
               {repository.homepage && (
                 <ProjectLink
                   target="_blank"
-                  href={`https://${repository.homepage}`}
+                  href={repository.homepage}
                 >
                   <FaShare /> See demo
                 </ProjectLink>
