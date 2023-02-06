@@ -1,7 +1,7 @@
 export const userData = {
   nameUser: "Gabriella Terra",
   githubUser: "gabriellaterra",
-  linkedinUser: "Gabriella Terra",
+  linkedinUser: "gabriella-terra",
   whatsappNumber: "",
   emailUser: "gabriellaterra8@gmail.com",
   instagramUser: "",
