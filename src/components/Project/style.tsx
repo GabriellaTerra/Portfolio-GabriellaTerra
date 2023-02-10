@@ -31,7 +31,7 @@ export const ProjectLink = styled("a", {
   lineHeight: "0",
 
   "&:hover": {
-    color: "$grey5",
+    color: "$brand2",
   },
 
   [`& svg`]: {
